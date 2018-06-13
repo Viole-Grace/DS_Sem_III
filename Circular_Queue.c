@@ -1,3 +1,17 @@
+// Time Complexity - O(1)
+// Data Structure Used - Queue(Circular)
+// Removes the drawbacks of a Regular Queue by utilising empty spaces resulting from deletion of elements
+// Uses - CPU Scheduling, Memory Management
+
+// Functions :
+// void create() : Creates a Queue of Size 'size'
+// void copy(element *start,element *end,element *nq) : Copies an Existing Queue data to a new Queue
+// void queueFull() : Resizes the length of queue to twice the current length, if length is reached.
+// void enQueue(element item) : Enters an element 'item' into the Queue
+// element deQueue() : Removes an element from the Queue
+// void displayQueue() : Displays given Queue.
+
+******************************************************************************************************************************
 #include <stdio.h>
 #include <stdlib.h>
 typedef struct
