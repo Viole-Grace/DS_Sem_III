@@ -1,3 +1,15 @@
+//Max Heap - Complete Binary tree, where Parent node is > either of its children nodes
+//Since Heap is a Complete BT, an Array representation is easier and typical
+//Left Child - given by (i * 2) ; Right Child - given by (i * 2) + 1, where i is the array position of the parent node
+//USES : Priority Queue, Heap Sort
+//Traversal - Level Order
+
+//FUNCTIONS : 
+//void insert(element item, int *n) : Inserts an element into array
+//element deleteHeap(int *n) : Removes an element from the array
+//void display(int n) : Displays Heap
+
+*******************************************************************************************************************************
 #include <stdio.h>
 #include <stdlib.h>
 #define MAX_SIZE 101
