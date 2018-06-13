@@ -1,3 +1,13 @@
+//KMP - Knuth Morris Pratt. A pattern matching algorithm.
+//Better working than just brute-forcing for a pattern match in a string.
+//USES - Booth Algorithm for bitwise multiplication,
+//Time Complexity - O(S*P) - where S = length of String, P = length of Pattern
+
+//FUNCTIONS :
+//void fail(char *pat,int failure[]) : Computes the Failure case of a given pattern to show where the string match failed
+//int pmatch(char *string,char *pat, int failure[]) : Matches a pattern p in a given 'string' ,provided p exists in string
+
+********************************************************************************************************************************
 #include <stdio.h>
 #include <string.h>
 void fail(char *pat,int failure[])
