@@ -1,3 +1,8 @@
+//Linked Stacks - Optimization of space against regular Stacks.
+//Below Implementation uses multiple linked stacks.
+//FUNCTIONS : Self Explanatory
+
+*******************************************************************************************************************************
 #include <stdio.h>
 #include <stdlib.h>
 typedef struct element
