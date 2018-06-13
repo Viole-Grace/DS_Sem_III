@@ -1,3 +1,18 @@
+//DFS - Depth First Search
+//Time Complexity - O(V+E)
+//Data Structure Used - Stack( Recursive )
+// 	DIFFERENCE:
+// BFS: Explores the closest vertices from source, moves outward - Hence, uses a Queue.
+// DFS: Explores the vertex farthest away on the link, then backtracks - Hence, uses a Stack.
+// USES: Single Solution Problems (e.g : Mazes), Cycle Detection in a Graph, Topological Sorting
+
+//FUNCTIONS : 
+//void attach(int v, nodeptr* head) : Attaches a node 'v' to the Graph
+//void createGraph() : Creates a Graph
+//void displayAdjList() : Displays Adj. List
+//void dfs(int v) : Given a node 'v', performs DFS from that node.
+
+********************************************************************************************************************************
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
