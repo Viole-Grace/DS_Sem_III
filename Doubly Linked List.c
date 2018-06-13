@@ -1,3 +1,14 @@
+//DLL - Allows Traversal in both ways of a node , as opposed to a regular LL where traversal is unidirectional
+//Data Structure Used - Linked List
+//USES - Ease of Modification
+
+//FUNCTIONS :
+//void insert(int item,nodepointer head) : Inserts node into the List
+//void delete(int item,nodepointer head) : Deletes node from the list
+//void displayf(nodepointer head) : Displays list in the forward direction
+//void displayr(nodepointer head) : Displays list in the reverse direction
+
+*********************************************************************************************************************************
 #include <stdio.h>
 #include <stdlib.h>
 struct node
