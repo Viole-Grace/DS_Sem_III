@@ -1,3 +1,7 @@
+//Polynomial Additon
+//Data Structure Used - Linked List (Circular)
+
+******************************************************************************************************************************
 #include <stdio.h>
 #include <stdlib.h>
 #define COMPARE(x,y) ((x==y)?0:(x>y)?1:-1)
@@ -59,8 +63,10 @@ void printPoly(polypointer k)
 	k=k->link;
 	while(((k->link)->exp)!=-1)
 	{
-		printf("%fx^%d + ",k->coeff,k->exp);
+		printf("%fx^%d ",k->coeff,k->exp);
 		k=k->link;
+		if(k->coeff > 0 && (k->link))
+			printf(" + ");
 	}
 	printf("%fx^%d",k->coeff,k->exp);
 	printf("\n");
