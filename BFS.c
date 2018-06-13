@@ -1,3 +1,18 @@
+// BFS - Breadth First Search
+// Data Structure Used - Queue
+// Time Complexity - O(V+E)
+// Uses - Determination of Bi-partite nature of graphs using Layer-wise Coloring.
+
+// Functions used :
+// void attach(int v, nodeptr* head) : Creates a new node
+// void createGraph() : Joins different new nodes with given vertex numbers
+// int deleteq() : Queue Function to remove an element
+// void addq(int v) : Queue Function to add an element
+// int queueEmpty() : Queue Function that returns 0 if front != rear
+// void displayAdjList() : Displays the adj list
+// void bfs(int v) : Given a starting vertex v, performs BFS from that vertex.
+
+******************************************************************************************************************************
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
@@ -12,7 +27,7 @@ int visited[20]={0};
 int n;
 int front=-1, rear=-1;
 int queue[20];
-void attach(int v, nodeptr* head) //creates a new node
+void attach(int v, nodeptr* head) 
 {
 	nodeptr new;
 	nodeptr temp;
@@ -25,10 +40,10 @@ void attach(int v, nodeptr* head) //creates a new node
 		*head=new;
 		return;
 	}
-	for(; temp->link; temp=temp->link); //Notice the semicolon
+	for(; temp->link; temp=temp->link); //addition at node -> traverse till end of linked list, then add node.
 	temp->link=new;
 }
-void createGraph() //joins different new nodes with given vertex numbers
+void createGraph() 
 {
 	int i,numcon,j,v;
 	printf("Enter number of vertices: ");
