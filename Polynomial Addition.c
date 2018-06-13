@@ -1,3 +1,12 @@
+// Polynomial - Addition and Evaluation.
+
+//Poly addition - using Linked Lists
+// 2 polynomials A and B are taken, their coefficients are added if exponents are equal. else, its a new term in the list.
+
+//Poly evaluation - using Linked Lists
+//given a value for the variable 'x' , the code evaluates the value of the polynomial.
+
+********************************************************************************************************************************
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
