@@ -1,3 +1,14 @@
+//Transpose of a Sparse Matrix using Fast Transpose method
+//Data Structure Used - Arrays
+//In matrices where no. of '0' data elements > no. of non-zero data elements, denseness of matrix is reduced.
+// USES -  Admittance Matrix, Partial Differential Equations, Numerical Analysis, Linear Algebra
+
+//FUNCTIONS
+//void input(term a[]) : Takes input of a matrix, converts it to sparse matrix.
+//void fast_transpose(term a[],term b[]) : Computes Fast Transpose of matrix A
+//void output(term k[]) : Prints the output matrix k[]
+
+******************************************************************************************************************************
 #include <stdio.h>
 #define MAX_TERMS 101
 #define MAX_COL 101
