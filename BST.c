@@ -1,3 +1,13 @@
+//BST - Binary Search Tree
+//Time Complexity - Search - O(n), Delete - O(n), Insert - O(n)
+//Uses - Solving Expression Parsers, Indexing a Data-Base
+//Data Structure Used - Tree
+
+//Functions :
+//void insert(treepointer *root, int d) : Node Insertion, given the 'root' of the tree, a node 'd' is inserted.
+//boolean search(treepointer root, int d) : Searches for node with element 'key'. Returns True if key is found in the tree.
+//void inOrder(treepointer ptr) : Prints Inorder traversal of the tree.
+******************************************************************************************************************************
 #include <stdio.h>
 #include <stdlib.h>
 typedef enum{false, true} boolean;
