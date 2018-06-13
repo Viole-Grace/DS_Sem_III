@@ -1,3 +1,8 @@
+//Linked Queues - Optimization of space against regular Queues
+//Below Implementation uses multiple linked queues.
+//FUNCTIONS : Self Explanatory
+
+*******************************************************************************************************************************
 #include <stdio.h>
 #include <stdlib.h>
 typedef struct element
